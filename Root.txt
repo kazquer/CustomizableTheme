@@ -1,3 +1,4 @@
+/*Changes are made with values below.*/
 :root {
   --Font: "Eras Demi ITC"; /*Change Font*/
   --ChatImage: 1; /*Visibility of Chat Image*/
