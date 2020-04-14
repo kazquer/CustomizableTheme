@@ -12,7 +12,7 @@
   --Color2: rgba(0, 0, 5, 0.7);/*Hard Background and Highlights*/
   --Color3: rgba(50, 50, 255, 0.7);/*Notifications*/
   --Color4: rgba(50, 50, 50, 0.4);/*Shadows*/
-  --Color5: rgba(0, 0, 20, 0.5); /*Text Shadow (Main Chat)*/
+  --Color5: rgba(0, 0, 20, 0.2); /*Text Shadow*/
   --Color6: rgba(30, 30, 60, 0.5);/*Borders*/ 
   --Color7: rgba(35, 35, 35, 0.4);/*Button*/
   --Color8: rgba(20, 20, 20, 0.4);/*Button Hover*/
