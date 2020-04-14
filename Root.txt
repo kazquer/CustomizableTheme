@@ -1,3 +1,4 @@
+/*All Adjustable Settings For The Theme*/
 :root {
   --Font: "Eras Demi ITC";
   --ChatImage: 1; /*Opacity Of Chat Image*/
