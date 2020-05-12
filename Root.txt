@@ -29,4 +29,5 @@
   --Icons: rgba(180, 200, 255, 0.6);/*Icon Color*/
   --IconsHover: rgba(80, 100, 180, 0.6);/*Icon Hover Color*/
   --BackgroundImage: url(""); /*Background Image, Cancels Out Transparency*/
+  --HoverPulse: rgba(50,50,120,0.3); /*Pulsing Color Of Some Hovered Elements*/
 }
