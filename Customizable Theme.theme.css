@@ -303,12 +303,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .subscribeTooltipWrapper-32-Ce8,
 .jumpToPresentBar-G1R9s6,
 .theme-dark .footer-2gL1pp,
-.theme-dark .selected-1Tbx07,
 .full-motion .translate-2dAEQ6.didRender-33z1u8,
 .container-3XJ8ns {
     background-color: var(--Color2) !important;
 }
-.theme-dark .option-96V44q.selected-rZcOL- {
+.theme-dark .option-96V44q.selected-rZcOL-,
+.theme-dark .selected-1Tbx07 {
     background-color: var(--Color2);
 }    
 .theme-dark .keybindShortcut-1BD6Z1 {
