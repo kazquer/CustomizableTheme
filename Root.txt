@@ -1,33 +1,73 @@
 /*All Adjustable Settings For The Theme*/
 :root {
-  --Font: "Eras Demi ITC";
-  --ChatImage: 1; /*Opacity Of Chat Image*/
-  --ChatImageSize: 2.6rem; /*Size of Image On Main Chat*/
-  --ChatImageGrowth: 5; /*Grow Chat Image On Hover. Calc(Image Size * This Value)*/
-  --ProfileImageSize: 15rem; /*Profile Image Size*/
-  --ImageEdgeCutting: 20%; /*Smooths Corners of Most Images*/
-  --EmojiSize: 3rem; /*Size of Emotes - Only When Text Is Not Present*/
-  --EmojiTextSize: 2.5rem; /*Size of Emotes When With Text*/
-  --EmojiTextAli: middle; /*Placements Of Text Next Emote (use e.g: "Top" | "Middle" | "Bottom" | +/- Pixels*/
+  --Font: "Comic Sans MS"; /*Eras Demi ITC, Comic Sans MS*/
+  --ChatImage: 1; /*Opacity Of Chat Image. (Accepted values 0.0 - 1.0)*/
+  --ChatImageSize: 3rem; /*Size of Image On Main Chat. Don't recommend over 4rem*/
+  --EmojiSize: 4rem; /*Size of Emotes - Only When Text Is Not Present*/
   --Color1: rgba(0, 0, 5, 0.6);/*Primary Background*/
-  --Color2: rgba(0, 0, 5, 0.8);/*Hard Background and Highlights*/
-  --Color3: rgba(255, 20, 20, 0.7);/*Notifications*/
+  --Color2: rgba(0, 0, 0, 0.4);/*Light Background and Highlights*/
+  --Color3: rgba(0, 0, 5, 0.8);/*Hard Background and Highlights*/
   --Color4: rgba(50, 50, 50, 0.4);/*Shadows*/
   --Color5: rgba(0, 0, 20, 0.2); /*Text Shadow*/
-  --Color6: rgba(30, 30, 60, 0.5);/*Borders*/ 
-  --Color7: rgba(35, 35, 35, 0.4);/*Button*/
-  --Color8: rgba(20, 20, 20, 0.4);/*Button Hover*/
-  --Color9: rgba(50, 60, 100, 0.5);/*Scroller*/
-  --Color10: rgba(250, 100, 100, 1);/*Links & @Mentions*/
+  --Color6: rgba(30, 30, 30, 0.5);/*Borders*/ 
+  --Color7: rgba(100, 100, 100, 0.4);/*Button*/
+  --Color8: rgba(35, 35, 35, 0.4);/*Button Hover / Active*/
+  --Color9: rgba(30, 40, 60, 0.4);/*Scroller*/
+  --Color10: rgba(250, 100, 100, 1);/*Links & @Mentions text*/
   --Color11: rgba(255, 50, 50, 0.7);/*Warning Font Color*/
   --Color12: rgba(140, 255, 100, 1);/*Username Color When Not Specified By Role*/
   --Color13: rgba(255, 255, 255, 0.9);/*Primary Font Color*/
-  --Color14: rgba(200, 200, 200, 0.6);/*Secondary Font Color*/
+  --Color14: rgba(120, 120, 120, 0.6);/*Secondary Font Color*/
   --Color15: rgba(0, 0, 0, 0.6);/*Hovered Elements*/
   --Color16: rgba(80, 80, 150, 0.6); /*Checkboxes and Sliders Fill Color*/
   --Color17: rgba(0, 0, 5, 0.5);/*Active Element*/
-  --Icons: rgba(180, 200, 255, 0.6);/*Icon Color*/
+  --Color18: rgba(255, 20, 20, 0.7);/*Notifications*/
+  --Color19: rgba(20, 255, 20, 0.6);/*Positive Status*/
+  --Color20: rgba(80, 80, 150, 0.4);/*@Mention background and notification bar background pulse*/
+  --Icons: rgba(190, 200, 255, 0.7);/*Icon Color*/
   --IconsHover: rgba(80, 100, 180, 0.6);/*Icon Hover Color*/
-  --BackgroundImage: url(""); /*Background Image, Cancels Out Transparency*/
-  --HoverPulse: rgba(50,50,120,0.4); /*Pulsing Color Of Some Hovered Elements*/
+  --BackgroundImage: url("") !important; /*Background Image, Cancels Out Transparency*/
+  --HoverPulse: rgba(90,90,200,0.6); /*Pulsing Color Of Some Hovered Elements*/
+/*Hijacked Variables*/
+  --font-display: var(--Font);
+  --font-primary: var(--Font);
+  --background-modifier-hover: var(--Color2);
+  --background-modifier-selected: var(--Color2);
+  --background-primary: var(--Color2);
+  --brand-500: var(--Color2);
+  --background-secondary-alt: var(--Color3);
+  --background-accent: var(--Color3);
+  --background-modifier-active: var(--Color3);
+  --primary-400: var(--Color6);
+  --background-tertiary: var(--Color7);
+  --button-secondary-background: var(--Color7);
+  --background-modifier-selected: var(--Color8);
+  --text-link: var(--Color10);
+  --embed-title: var(--Color10);
+  --text-negative: var(--Color11) !important;
+  --status-negative: var(--Color11);
+  --status-danger: var(--Color11);
+  --button-danger-background: var(--Color11);
+  --text-normal: var(--Color13) !important; /*Chat Text*/
+  --interactive-active: var(--Color13);
+  --interactive-hover: var(--Color13) !important;
+  --header-primary: var(--Color13) !important;
+  --white-500: var(--Color13) !important;
+  --text-positive: var(--Color13) !important;
+  --interactive-normal: var(--Color14) !important;
+  --text-muted: var(--Color14); /*Muted Text*/
+  --channels-default: var(--Color14); /*Channel Text*/
+  --header-secondary: var(--Color14);
+  --channel-text-area-placeholder: var(--Color14);
+  --status-positive: var(--Color19);
+  --button-positive-background: var(--Color19);
+  --__lottieIconColor: var(--Icons) !important;
+  --channel-icon: var(--Icons);
+}
+
+/*Background Image Stuff*/
+body {
+    background-image: var(--BackgroundImage) !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
