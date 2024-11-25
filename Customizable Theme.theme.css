@@ -101,11 +101,6 @@ input {
      width: var(--EmojiSize) !important;
      height: var(--EmojiSize) !important;
 }
-body {
-    background-image: var(--BackgroundImage) !important;
-    background-size: cover !important;
-    background-position: center !important;
-}
 .appMount_ea7e65 {
     background-color: var(--Color1) !important;
 }
