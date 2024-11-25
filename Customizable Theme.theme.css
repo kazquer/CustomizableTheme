@@ -2,7 +2,7 @@
  * @name         Customizable Theme
  * @description  Adjust Settings With Custom CSS. Transparency Must Be On To Work Properly. Check website for updates.
  * @author       kasquer
- * @version      2.0.0 |
+ * @version      2.0.1 |
  * @website      https://kazquer.github.io/
  */
 
@@ -69,7 +69,14 @@ body, .appMount_ea7e65,
 .sidebarRegionScroller_c25c6d,
 .accountProfileCard_b69b77,
 .inner_c69a7b.fullSize_c69a7b,
-.upsellContainer_ad7baa {
+.upsellContainer_ad7baa,
+.contentRegionScroller_c25c6d,
+.contentRegion_c25c6d,
+.lookFilled_dd4f85.colorGreen_dd4f85, .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c,
+.container_e462a4,
+.navItem_e462a4,
+.rewardDescriptionContainer_c2d7e2,
+.textOverflowBlur_c2d7e2 {
     background-color: transparent !important;
     background: none !important;
     border-color: var(--Color6) !important;
@@ -93,6 +100,11 @@ input {
 .emoji.jumboable {
      width: var(--EmojiSize) !important;
      height: var(--EmojiSize) !important;
+}
+body {
+    background-image: var(--BackgroundImage) !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 .appMount_ea7e65 {
     background-color: var(--Color1) !important;
@@ -129,7 +141,12 @@ input {
 .footer_aa1bff,
 .popoverReactionHoverBar_e986d9,
 .footer_f8ec41,
-.wrapper_cd82a7 {
+.wrapper_cd82a7,
+.bd-addon-list .bd-addon-card,
+.banner.banner-danger,
+.textContainer_d8e2d0,
+.footer_d8e2d0,
+.container_a97111 {
     background-color: var(--Color2) !important;
 }
 .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3,
@@ -150,8 +167,8 @@ input {
 .autocomplete_bcc24e,
 .inner_c69a7b.biteSize_c69a7b,
 .upsellContainer_ad7baa,
-.textContainer_d8e2d0,
-.footer_d8e2d0 {
+.backdrop_accde0,
+.bar_c7a159 {
     background-color: var(--Color3) !important;
 }
 .biteSizeInnerThemed_c69a7b {
@@ -164,7 +181,9 @@ input {
 .wrapper_cd82a7,
 .shopCard_c23530,
 .textContainer_d8e2d0,
-.footer_d8e2d0 {
+.footer_d8e2d0,
+.banner.banner-danger,
+.container_aef5fd {
     border-color: var(--Color6) !important;
 }
 .theme-dark .panel_bf1a22,
@@ -190,8 +209,14 @@ input {
 .input_f4e139,
 .upload_df1eaf,
 .root_f9a4c9,
-.background_b69b77 {
+.background_b69b77,
+.bd-addon-list .bd-addon-card,
+.navItem_e462a4 {
     border: 1px solid;
+    border-color: var(--Color6) !important;
+}
+.bd-notice-button {
+    border: 2px solid;
     border-color: var(--Color6) !important;
 }
 .circleIconButton_db6521, 
@@ -205,7 +230,8 @@ input {
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .lookFilled_dd4f85.colorPrimary_dd4f85,
 .lookFilled_dd4f85.colorBrandInverted_dd4f85,
-.button_df39bd {
+.button_df39bd,
+.container_aef5fd {
     background-color: var(--Color7) !important;
 }
 .bd-switch-body {
@@ -228,13 +254,18 @@ input {
 .topPill_a0 .themed_a0.selected_a0.item_a0, .side_a0 .themed_a0.selected_a0.item_a0,
 .lookFilled_dd4f85.colorPrimary_dd4f85:hover,
 .lookFilled_dd4f85.colorBrandInverted_dd4f85:hover,
-.button_df39bd:hover {
+.button_df39bd:hover,
+.container_aef5fd:hover,
+.navItem_e462a4.selected_e462a4,
+.navItem_e462a4:active {
     background-color: var(--Color8) !important;
 }
-.wrapper_bf1b19.wrapper_bf1b19 {
+.wrapper_bf1b19.wrapper_bf1b19,
+.bd-addon-list .bd-footer .bd-link {
     color: var(--Color10) !important;
 }
-.colorDanger_d90b3d, .colorDanger_d90b3d .checkbox_d90b3d, .colorDanger_d90b3d .radioSelection_d90b3d {
+.colorDanger_d90b3d, .colorDanger_d90b3d .checkbox_d90b3d, .colorDanger_d90b3d .radioSelection_d90b3d,
+.banner.banner-danger {
     color: var(--Color11) !important;
 }
 .username_f9f2ca {
@@ -264,7 +295,8 @@ input {
 .input_f4e139,
 .theme-dark .tabItemSelected_a18ec1,
 .text-sm\/normal_dc00ef,
-.display-md_dc00ef {
+.display-md_dc00ef,
+.bd-notice {
     color: var(--Color13) !important;
 }
 .bd-switch-handle {
@@ -310,8 +342,13 @@ body, textarea, input, button, select, ::placeholder,
 .resultsGroup_b0286e .searchLearnMore_b0286e, .resultsGroup_b0286e .searchClearHistory_b0286e,
 .option_b0286e:hover .plusIcon_b0286e, .option_b0286e[aria-selected=true] .plusIcon_b0286e,
 .button_dd4f85 .contents_dd4f85,
-.lottieIcon_f73ef7 {
+.lottieIcon_f73ef7,
+.clickable_fc4f04 .icon_fc4f04,
+.barFill_c7a159 {
     color: var(--Icons) !important;
+}
+.icon_aef5fd {
+    background-color: var(--Icons) !important;
 }
 .popoutBanner_c3e427,
 .panelBanner_c3e427,
