@@ -239,7 +239,9 @@ html:not(.visual-refresh-chat-input) .inner_a99829,
 .messagesPopoutWrap__45690,
 .root__49fc1,
 .tooltipPrimary__382e7,
-.toolbar_bba883 {
+.toolbar_bba883,
+.header_c0e32c,
+.emojiPicker_c0e32c {
     background-color: var(--Color3) !important;
 }
 .biteSizeInnerThemed_c69a7b {
@@ -525,7 +527,8 @@ body, textarea, input, button, select, ::placeholder,
 .clickable__13533[aria-disabled='false'] > .base__13533:hover,
 .interactive_bf202d:hover, .interactive_bf202d:focus-within,
 .clickable__13533[aria-selected='true'] > .base__13533,
-.button_bba883:hover {
+.button_bba883:hover,
+.emojiItem_fc7141.emojiItemSelected_fc7141 {
     animation: 2s infinite ease-out Hover !important;
 }
 @keyframes Hover {
