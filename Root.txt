@@ -34,6 +34,7 @@
   --background-modifier-hover: var(--Color2);
   --background-modifier-selected: var(--Color2);
   --background-primary: var(--Color2);
+  --background-tertiary: var(--Color2);
   --brand-500: var(--Color2);
   --background-secondary-alt: var(--Color3);
   --background-accent: var(--Color3);
@@ -63,6 +64,13 @@
   --button-positive-background: var(--Color19);
   --__lottieIconColor: var(--Icons) !important;
   --channel-icon: var(--Icons);
+  --background-secondary: var(--Color2);
+  --channeltextarea-background: rgba(0, 0, 0, 0);
+  --background-tertiary: rgba(0, 0, 0, 0);
+  --background-secondary-alt: var(--Color2);
+  --background-primary: var(--Color2);
+  --button-filled-brand-background-hover: var(--Color8);
+  --input-background: var(--Color2);
 }
 
 /*Background Image Stuff*/
