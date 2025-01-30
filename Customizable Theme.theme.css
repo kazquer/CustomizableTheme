@@ -105,7 +105,8 @@ body, .appMount_ea7e65,
 .theme-dark .container__2637a,
 .container_c8ffbb,
 .members_c8ffbb,
-.bd-modal .footer  {
+.bd-modal .footer,
+.replyBar__841c8, .stackedBars__74017 {
     background-color: transparent !important;
     background: none !important;
     border-color: var(--Color6) !important;
