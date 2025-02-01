@@ -71,6 +71,19 @@
   --background-primary: var(--Color2);
   --button-filled-brand-background-hover: var(--Color8);
   --input-background: var(--Color2);
+  --mention-foreground: var(--Color10);
+  --interactive-active: var(--Color13) !important;
+  --background-modifier-selected: var(--Color17) !important;
+  --header-secondary: var(--Color14) !important;
+  --button-outline-danger-background-hover: var(--Color8) !important;
+  --button-outline-danger-background: var(--Color11) !important;
+  --button-outline-danger-border-hover: var(--Color11) !important;
+  --button-outline-danger-border: var(--Color6) !important;
+  --button-outline-danger-text: var(--Color13) !important;
+  --button-outline-danger-text-hover: var(--Color11) !important;
+  --input-border: var(--Color6) !important;
+  --scrollbar-auto-thumb: var(--Color9) !important;
+  --scrollbar-auto-track: var(--Color2) !important;
 }
 
 /*Background Image Stuff*/
