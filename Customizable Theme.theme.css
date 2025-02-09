@@ -247,7 +247,7 @@ body {
 .divider__908e2 {
     --divider-color: var(--Color18) !important;
 }
-.xenoLib-notification-loadbar,.fontSize16Padding__74017 {
+.xenoLib-notification-loadbar {
     background-image: linear-gradient(90deg, var(--Color3), var(--Color18));
 }
 .lookFilled_dd4f85.colorGreen_dd4f85,.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c
