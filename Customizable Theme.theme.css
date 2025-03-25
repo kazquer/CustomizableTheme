@@ -2,53 +2,53 @@
  * @name         Customizable Theme
  * @description  Adjust Settings With Custom CSS. Transparency Must Be On To Work Properly. Check website for updates.
  * @author       kasquer
- * @version      2.1.8 |
+ * @version      2.2.0 |
  * @website      https://kazquer.github.io/
  */
 
 :root {
-  --font-display: var(--Font);
-  --font-primary: var(--Font);
-  --background-modifier-hover: var(--Color2);
-  --background-modifier-selected: var(--Color2);
-  --background-primary: var(--Color2);
-  --background-tertiary: var(--Color2);
-  --background-secondary-alt: var(--Color3);
-  --background-accent: var(--Color3);
-  --background-modifier-active: var(--Color3);
-  --primary-400: var(--Color6);
-  --background-tertiary: var(--Color7);
-  --button-secondary-background: var(--Color7);
-  --background-modifier-selected: var(--Color8);
-  --text-link: var(--Color10);
-  --embed-title: var(--Color10);
+  --font-display: var(--Font) !important;
+  --font-primary: var(--Font) !important;
+  --background-modifier-hover: var(--Color2) !important;
+  --background-modifier-selected: var(--Color2) !important;
+  --background-primary: var(--Color2) !important;
+  --background-tertiary: var(--Color2) !important;
+  --background-secondary-alt: var(--Color3) !important;
+  --background-accent: var(--Color3) !important;
+  --background-modifier-active: var(--Color3) !important;
+  --primary-400: var(--Color6) !important;
+  --background-tertiary: var(--Color7) !important;
+  --button-secondary-background: var(--Color7) !important;
+  --background-modifier-selected: var(--Color8) !important;
+  --text-link: var(--Color10) !important;
+  --embed-title: var(--Color10) !important;
   --text-negative: var(--Color11) !important;
-  --status-negative: var(--Color11);
-  --status-danger: var(--Color11);
-  --button-danger-background: var(--Color11);
+  --status-negative: var(--Color11) !important;
+  --status-danger: var(--Color11) !important;
+  --button-danger-background: var(--Color11) !important;
   --text-normal: var(--Color13) !important; /*Chat Text*/
-  --interactive-active: var(--Color13);
+  --interactive-active: var(--Color13) !important;
   --interactive-hover: var(--Color13) !important;
   --header-primary: var(--Color13) !important;
   --white-500: var(--Color13) !important;
   --text-positive: var(--Color13) !important;
   --interactive-normal: var(--Color14) !important;
-  --text-muted: var(--Color14); /*Muted Text*/
-  --channels-default: var(--Color14); /*Channel Text*/
-  --header-secondary: var(--Color14);
-  --channel-text-area-placeholder: var(--Color14);
-  --status-positive: var(--Color19);
-  --button-positive-background: var(--Color19);
+  --text-muted: var(--Color14) !important; /*Muted Text*/
+  --channels-default: var(--Color14) !important; /*Channel Text*/
+  --header-secondary: var(--Color14) !important;
+  --channel-text-area-placeholder: var(--Color14) !important;
+  --status-positive: var(--Color19) !important;
+  --button-positive-background: var(--Color19) !important;
   --__lottieIconColor: var(--Icons) !important;
-  --channel-icon: var(--Icons);
-  --background-secondary: var(--Color2);
-  --channeltextarea-background: rgba(0, 0, 0, 0);
-  --background-tertiary: rgba(0, 0, 0, 0);
-  --background-secondary-alt: var(--Color2);
-  --background-primary: var(--Color2);
-  --button-filled-brand-background-hover: var(--Color8);
-  --input-background: var(--Color2);
-  --mention-foreground: var(--Color10);
+  --channel-icon: var(--Icons) !important;
+  --background-secondary: var(--Color2) !important;
+  --channeltextarea-background: rgba(0, 0, 0, 0) !important;
+  --background-tertiary: rgba(0, 0, 0, 0) !important;
+  --background-secondary-alt: var(--Color2) !important;
+  --background-primary: var(--Color2) !important;
+  --button-filled-brand-background-hover: var(--Color8) !important;
+  --input-background: var(--Color2) !important;
+  --mention-foreground: var(--Color10) !important;
   --interactive-active: var(--Color13) !important;
   --background-modifier-selected: var(--Color17) !important;
   --header-secondary: var(--Color14) !important;
@@ -73,9 +73,13 @@
   --white-500: var(--Color13) !important;
   --brand-500: var(--Color14) !important;
   --bg-brand: var(--Color7) !important;
+  --neutral-79: rgba(0, 0, 0, 0) !important;
+  --neutral-81: rgba(0, 0, 0, 0) !important;
+  --neutral-92: rgba(0, 0, 0, 0) !important;
+  --background-base-lower: var(--Color2) !important;
   }
 @import url("https://kazquer.github.io/GlobalTheme.theme.css");
-body,.hljs,.member_a31c43,.wrapper_bf1b19,.theme-dark .panel_bf1a22,.theme-dark,.userProfileInnerThemedWithBanner_c69a7b,.userPanelInnerThemed_c69a7b,.userProfileInner_c69a7b:before,.root_f9a4c9,.wrapper_cdfd51,.cozy_b211c6.wrapper_b211c6,.backdrop_e4f2ae,.container_b558d0>*,.footer_f9a4c9,.userProfileInnerThemedNonPremium_c69a7b,.option_b0286e:hover:after,.option_b0286e:after,.container_c2739c,.nowPlayingColumn_c2739c,.quickswitcher_f4e139,.floating-window-content,.monaco-editor,.theme-dark .pageWrapper_a3a4ce,.fullSizeInnerThemed_c69a7b,.custom-profile-theme .biteSizeInnerThemed_c69a7b,.pageWrapper_e77fa3,.shopScroll_e77fa3,.shop_e77fa3,.darkCardBackground_c23530,.scroller_ad8f79,.theme-dark .themed_e44302,.header_f1629a,.applicationStore_cecc86,.scroller_a8b566,.sidebarRegionScroller_c25c6d,.accountProfileCard_b69b77,.inner_c69a7b.fullSize_c69a7b,.upsellContainer_ad7baa,.contentRegionScroller_c25c6d,.contentRegion_c25c6d,.lookFilled_dd4f85.colorGreen_dd4f85, .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c,.container_e462a4,.navItem_e462a4,.rewardDescriptionContainer_c2d7e2,.textOverflowBlur_c2d7e2,.replyBar_b11c5e, .threadSuggestionBar_b11c5e,.bd-modal-footer,.privateChannels__35e86,.sidebar_c48ade,.panels_c48ade,.chatContent_f75fb0,.standardSidebarView__23e6b,.sidebarRegionScroller__23e6b,.contentRegion__23e6b,.layer__960e4,.contentRegionScroller__23e6b,.premiumFeatureBorder__65c15,.wrapper__14245,.wrapper__4e6ce,.inspector_aeaaeb,.container_fed6d3,.header_fed6d3,.container__133bf,.nowPlayingColumn__133bf, .container__7d20c,.scroller__4a84a,.scroller_fb04e1,.scroller_c880e8,.applicationStore_f07d62,.shop__6db1d, .shopScroll__6db1d, .shop__08415,.theme-dark .container__2637a,.members_c8ffbb,.bd-modal .footer,.replyBar__841c8, .stackedBars__74017,.container_e131a9,.theme-dark .panel__5dec7,.footer__49fc1,.custom-profile-theme .inner_c0bea0,.theme-dark .scroller__99e7c, .chat_f75fb0,.theme-dark .children__9293f:after,.focused__55c99,.queryContainer__55c99,.container__0f711,.guildSection_d5cd2d,.inner_c0bea0.biteSize_c0bea0, .inner_c0bea0.fullSize_c0bea0, .wrapper_f61d60, .fieldList__1fed1,.theme-dark .container__37e49,.container__91a9d,.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786,.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover,.theme-dark .content__37e49
+body,.hljs,.member_a31c43,.wrapper_bf1b19,.theme-dark .panel_bf1a22,.theme-dark,.userProfileInnerThemedWithBanner_c69a7b,.userPanelInnerThemed_c69a7b,.userProfileInner_c69a7b:before,.root_f9a4c9,.wrapper_cdfd51,.cozy_b211c6.wrapper_b211c6,.backdrop_e4f2ae,.container_b558d0>*,.footer_f9a4c9,.userProfileInnerThemedNonPremium_c69a7b,.option_b0286e:hover:after,.option_b0286e:after,.container_c2739c,.nowPlayingColumn_c2739c,.quickswitcher_f4e139,.floating-window-content,.monaco-editor,.theme-dark .pageWrapper_a3a4ce,.fullSizeInnerThemed_c69a7b,.custom-profile-theme .biteSizeInnerThemed_c69a7b,.pageWrapper_e77fa3,.shopScroll_e77fa3,.shop_e77fa3,.darkCardBackground_c23530,.scroller_ad8f79,.theme-dark .themed_e44302,.header_f1629a,.applicationStore_cecc86,.scroller_a8b566,.sidebarRegionScroller_c25c6d,.accountProfileCard_b69b77,.inner_c69a7b.fullSize_c69a7b,.upsellContainer_ad7baa,.contentRegionScroller_c25c6d,.contentRegion_c25c6d,.lookFilled_dd4f85.colorGreen_dd4f85, .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c,.container_e462a4,.navItem_e462a4,.rewardDescriptionContainer_c2d7e2,.textOverflowBlur_c2d7e2,.replyBar_b11c5e, .threadSuggestionBar_b11c5e,.bd-modal-footer,.privateChannels__35e86,.sidebar_c48ade,.panels_c48ade,.chatContent_f75fb0,.standardSidebarView__23e6b,.sidebarRegionScroller__23e6b,.contentRegion__23e6b,.layer__960e4,.contentRegionScroller__23e6b,.premiumFeatureBorder__65c15,.wrapper__14245,.wrapper__4e6ce,.inspector_aeaaeb,.container_fed6d3,.header_fed6d3,.container__133bf,.nowPlayingColumn__133bf, .container__7d20c,.scroller__4a84a,.scroller_fb04e1,.scroller_c880e8,.applicationStore_f07d62,.shop__6db1d, .shopScroll__6db1d, .shop__08415,.theme-dark .container__2637a,.members_c8ffbb,.bd-modal .footer,.replyBar__841c8, .stackedBars__74017,.container_e131a9,.theme-dark .panel__5dec7,.footer__49fc1,.custom-profile-theme .inner_c0bea0,.theme-dark .scroller__99e7c, .chat_f75fb0,.theme-dark .children__9293f:after,.focused__55c99,.queryContainer__55c99,.container__0f711,.guildSection_d5cd2d,.inner_c0bea0.biteSize_c0bea0, .inner_c0bea0.fullSize_c0bea0, .wrapper_f61d60, .fieldList__1fed1,.theme-dark .container__37e49,.container__91a9d,.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786,.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover,.theme-dark .content__37e49,.visual-refresh .wrapper_d852db,.visual-refresh .wrapper_fc8177
 {
     background-color: transparent !important;
     background: none !important;
@@ -134,7 +138,7 @@ body {
     1px -1px 1px var(--Color5),
     -1px -1px 1px var(--Color5);
 }
-.container_adcaac,.uploadDropModal_f82cc7 .inner_f82cc7,.theme-dark .tabItemSelected_a18ec1,.popoverReactionHoverBar_e986d9:hover,.wrapper_cd82a7,.shopCard_c23530,.textContainer_d8e2d0,.footer_d8e2d0,.banner.banner-danger,.container_aef5fd,.attachment_b52bef,.popoverReactionHoverBar_f84418,.toolbar_bba883,.quickswitcher_ac6cb0,.embedFull__623de,.container__8061a,.note_fcb628 textarea:focus,.interactionsContainerHeader_af3b89
+.container_adcaac,.uploadDropModal_f82cc7 .inner_f82cc7,.theme-dark .tabItemSelected_a18ec1,.popoverReactionHoverBar_e986d9:hover,.wrapper_cd82a7,.shopCard_c23530,.textContainer_d8e2d0,.footer_d8e2d0,.banner.banner-danger,.container_aef5fd,.attachment_b52bef,.popoverReactionHoverBar_f84418,.toolbar_bba883,.quickswitcher_ac6cb0,.embedFull__623de,.container__8061a,.note_fcb628 textarea:focus,.interactionsContainerHeader_af3b89,.divider__908e2
 {
     border-color: var(--Color6) !important;
 }
