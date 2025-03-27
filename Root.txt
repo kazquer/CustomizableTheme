@@ -20,7 +20,7 @@
   --Color14: rgba(120, 120, 120, 0.6);/*Secondary Font Color*/
   --Color15: rgba(0, 0, 0, 0.6);/*Hovered Elements*/
   --Color16: rgba(80, 80, 150, 0.6); /*Checkboxes and Sliders Fill Color*/
-  --Color17: rgba(0, 0, 5, 0.5);/*Active Element*/
+  --Color17: rgba(0, 0, 5, 0.5);/*Not Used ATM*/
   --Color18: rgba(255, 20, 20, 0.7);/*Notifications*/
   --Color19: rgba(20, 255, 20, 0.6);/*Positive Status*/
   --Color20: rgba(80, 80, 150, 0.4);/*@Mention background and notification bar background pulse*/
