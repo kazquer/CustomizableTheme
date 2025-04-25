@@ -170,7 +170,7 @@ body {background-image: var(--BackgroundImage) !important;background-size: cover
 .scroller__36d07 {margin-bottom: 0.5rem;}
 .scrollerSpacer__36d07 {height: 1rem;}
 .backdrop__78332.withLayer__78332 {background: var(--Color3) !important;backdrop-filter: none !important;}
-.visual-refresh .panels_c48ade {border: 0px;border-radius: 0px;bottom: 0px;left: 4.55rem;;padding-right: 4.55rem;padding-bottom: 0.2rem;border-top: 1px solid;border-color: var(--Color6) !important;}
+.visual-refresh .panels_c48ade {border: 0px;border-radius: 0px;bottom: 0px;left: 4.55rem;padding-right: 3.6rem;padding-bottom: 0.2rem;border-top: 1px solid;border-color: var(--Color6) !important;}
 .visual-refresh .wrapper_ef3116 {margin-bottom: 0px;}
 .carouselModal_d3a6f0 {background: none !important;}
 .visual-refresh .scroller__99e7c {margin-bottom: calc(var(--custom-app-panels-height, 0));}
