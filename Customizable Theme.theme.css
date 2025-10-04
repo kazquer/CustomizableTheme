@@ -167,8 +167,10 @@ body {background-image: var(--BackgroundImage) !important;background-size: cover
 .withFrame__421ed{margin-top: 0rem;padding-top: 0.3rem;}
 .upsellRowContent__5997d,.upsellDefaultContent__5997d {margin: -30rem !important;}
 .container_adcaac,.activityPanel_a4d4d9 {border-bottom: none;}
-.scroller__36d07 {margin-bottom: 0.5rem;}
-.scrollerSpacer__36d07 {height: 1rem;}
+.formWithLoadedChatInput_f75fb0 {height: 4rem;}
+.channelTextArea__74017:not(.highlighted__74017), .buttons__74017 {height: 3rem;}
+.attachButtonInner__0923f {padding: 0.2rem;}
+.slateTextArea_ec4baf {padding: 0.8rem;}
 .backdrop__78332.withLayer__78332 {background: var(--Color3) !important;backdrop-filter: none !important;}
 .visual-refresh .panels_c48ade {border: 0px;border-radius: 0px;bottom: 0px;left: 4.55rem;padding-right: 3.6rem;padding-bottom: 0.2rem;border-top: 1px solid;border-color: var(--Color6) !important;}
 .visual-refresh .wrapper_ef3116 {margin-bottom: 0px;}
@@ -181,3 +183,4 @@ div.interactive_f5eb4b:hover, .interactive_f5eb4b:focus-within,.wrapper_d8bfb3:h
 .mentioned_d5deea,.mentioned__5126c{animation: 0.8s infinite alternate ease-out MentionBackground;}
 @keyframes MentionBackground {from {background-color: transparent;}to {background-color: var(--Color20);}
 }
+
